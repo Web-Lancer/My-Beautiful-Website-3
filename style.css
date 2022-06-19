@@ -9,7 +9,7 @@ a {
 }
 
 body {
-  background-image: url(/images/bg-image-2.jpg);
+  background-image: url(/images/bg-image-3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   ;
@@ -24,11 +24,11 @@ body {
 }
 
 #main-area {
-  width: 900px;
+  width: 74%;
 }
 
 #sidebar {
-  width: 380px;
+  width: 25%;
 }
 
 .latest-articl a {
