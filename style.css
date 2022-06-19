@@ -24,10 +24,12 @@ body {
 
 #main-area {
   width: 74%;
+  background-color: rgba(245, 247, 234, 0.918);
 }
 
 #sidebar {
   width: 25%;
+   background-color: rgba(255, 240, 245, 0.913);
 }
 
 .latest-articl a {
@@ -60,10 +62,3 @@ body {
   border-radius: 5px;
 }
 
-#main-area {
-  background-color: rgba(245, 247, 234, 0.808);
-}
-
-#sidebar {
-  background-color: rgba(255, 240, 245, 0.872);
-}
