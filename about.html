@@ -1,140 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Basic Website</title>
-    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.css">
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>The About Page</title>
 </head>
+</header>
 
 <body>
-	<div class="headersection templete clear">
-		<div class="logo">
-			<img src="images/logo.png" alt="Logo"/>
-			<h2>Website Title</h2>
-			<p>Our website description</p>
-		</div>
-		<div class="social">
-			<a href="#"><i class="fa fa-facebook"></i></a>
-			<a href="#"><i class="fa fa-twitter"></i></a>
-			<a href="#"><i class="fa fa-linkedin"></i></a>
-			<a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
-		</div>
-	</div>
-	<div class="navsection templete">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a id="active" href="about.html">About</a></li>
-			<li><a href="about.html">Product</a>
-				<ul>
-					<li><a href="#">Product One</a></li>
-					<li><a href="#">Product Two</a></li>
-					<li><a href="#">Product Three</a></li>
-					<li><a href="#">Product Four</a></li>
-					<li><a href="#">Product Five</a></li>
+	<!----===============Menu bar====================-->
+	<nav class="navbar navbar-expand-lg mb-1 fixed-top shadow">
+		<div class="container-fluid">
+			<img class="img-fluid me-3 ms-5 bg-light rounded" src="/images/logo.png" style="width: 4.5%">
+			<a class="navbar-brand text-white" href="#">Website Headline</a>
+			<button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active text-white font-weight-bold" aria-current="page"
+							href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active text-white" href="#">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle active text-white" href="#" id="navbarDropdownMenuLink"
+							role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Product
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#">Action</a></li>
+							<li><a class="dropdown-item" href="#">Another action</a></li>
+							<li><a class="dropdown-item" href="#">Something else here</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active text-white" href="#">Contact</a>
+					</li>
 				</ul>
-			</li>
-			
-			<li><a href="about.html">Privacy</a></li>
-			<li><a href="about.html">DMCA</a></li>
-			<li><a href="contact.html">Contact</a>
-				<ul>
-					<li><a href="#">Address One</a></li>
-					<li><a href="#">Address Two</a></li>
-					<li><a href="#">Address Three</a></li>
-					<li><a href="#">Address Four</a></li>
-					<li><a href="#">Address Five</a></li>
-				</ul>
-			</li>
-				<li><a href="item.html">Item</a>
-					<ul>
-						<li><a href="item.html">CSS Transition</a></li>
-						<li><a href="itemTwo.html">CSS Transform</a></li>
-						<li><a href="itemThree.html">Counter-UP</a></li>
-						<li><a href="itemFour.html">Sort & Filter</a></li>
-					</ul>
-				</li>
-		</ul>
-	</div>
+			</div>
+		</div>
+	</nav>
 
-	<div class="contentsection contemplete clear">
-		<div class="maincontent clear">
-			<div class="about">
-				<h2>About us</h2>
-				<img src="images/about.jpg" alt="MyImage"/>
-				<p>About us..Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.</p>
-				
-				<div class="myimage">
-					<img src="images/about.jpg" alt="MyImage"/>
-					<div class="overlay"></div>
+	<div class="container" style="margin-top: 5.5%;">
+
+		<!----===============Content Section=============-->
+		<div class="container">
+			<main>
+				<div id="main-area" class=" float-start p-5 border border-2 border-light">
+					<section>
+						<h2 class="border-bottom border-2 border-warning">About us</h2>
+						<p>
+							<img style="width: 220px" class="float-start me-3 rounded img-thumbnail"
+								src="/images/Salim-bg.png" alt="">
+							This is Salim Malik. He is renound Journalist of Bangladesh. He is form kalihati the thana
+							of
+							Tangail district.
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus ullam perferendis, iste
+							quae id illo
+							ratione, </p>
+						<p>ex suscipit quis corrupti aliquid inventore, iusto distinctio nulla odio aut
+							numquam laboriosam
+							exercitationem.
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis fuga cupiditate vero
+							repellat enim officia
+							praesentium quaerat et illo ad cum pariatur consequuntur similique dignissimos, sint non
+							explicabo dolorum
+							magnam.
+						</p>
+						<iframe width="400" height="250" src="https://www.youtube.com/embed/Z5Gttth9hAs"
+							title="সরকারের ১৪তম বাজেটের খুঁটিনাটি বিশ্লেষণ | Budget 2022-23 | Rtv Exclusive News" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen></iframe>
+							<iframe class="float-end" width="400" height="250" src="https://www.youtube.com/embed/N0u-SnmGt7M"
+								title="বিশাল ঘাটতিসহ ঋণের বোঝা আরও এক ধাপ বাড়িয়ে আগামীকাল বাজেট দিতে যাচ্ছে সরকার | Budget | Rtv News"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit hic tempora sit.
+							Doloremque saepe officia
+							voluptas officiis enim sint itaque eum obcaecati. Est aperiam animi illo, cum reiciendis
+							incidunt deleniti.
+
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aspernatur repellat
+							exercitationem, fugiat
+							cumque dicta aut aliquid. Velit libero iusto, necessitatibus quidem quae culpa, eligendi
+							facere neque, </p>
+						<p> sed
+							repellendus voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+							consequatur culpa fugit
+							neque accusantium aut incidunt labore, odio consectetur dolore provident voluptas, optio,
+							exercitationem
+							dolorum corrupti? Quisquam id asperiores unde!</p>
+					</section>
 				</div>
-				
-				<p>About me..Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.</p>
-				
-				<p>About me..Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here. Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.Some text will be go here.</p>
-	</div>
 
+			</Main>
+			<!-----==============Aside==================-->
+			<aside>
+				<div id="sidebar" class="float-end p-2 border border-2 border-light">
+					<div class="latest-articl">
+						<h2
+							class="h3 fw-bold text-bg-warning px-3 py-1 border-bottom border-3 border-secondary text-center">
+							Latest Articles</h2>
+						<a href="#">Post Title one is here</a>
+						<a href="#">Post Title two is here</a>
+						<a href="#">Post Title three is here</a>
+						<a href="#">Post Title four is here</a>
+						<a href="#">Post Title tive is here</a>
+						<a href="#">Post Title six is here</a>
+					</div>
+					<div class="popular-article mt-4">
+						<h3
+							class="fw-bold text-bg-warning px-3 py-1 border-bottom border-3 border-secondary text-center">
+							Popular Articles</h3>
+						<div class="side-post">
+							<h4 class="border-bottom border-2 border-secondary">Post Title will be here</h4>
+							<img class="w-25 rounded-pill float-start me-2 border " src="/images/post2.png">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit at molestias minus
+								tempora error nam, tenetur a atque aperiam in sapiente, corporis, iusto necessitatibus
+								perspiciatis.</p>
+						</div>
+						<div class="side-post">
+							<h4 class="border-bottom border-2 border-secondary">Post Title will be here</h4>
+							<img class="w-25 rounded-pill float-start me-2 border " src="/images/post2.png">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit at molestias minus
+								tempora error nam,
+								tenetur a atque aperiam in sapiente, corporis, iusto necessitatibus perspiciatis.</p>
+						</div>
+						<div class="side-post">
+							<h4 class="border-bottom border-2 border-secondary">Post Title will be here</h4>
+							<img class="w-25 rounded-pill float-start me-2 border " src="/images/post2.png">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit at molestias minus
+								tempora error nam,
+								tenetur a atque aperiam in sapiente, corporis, iusto necessitatibus perspiciatis.</p>
+						</div>
+						<div class="side-post">
+							<h4 class="border-bottom border-2 border-secondary">Post Title will be here</h4>
+							<img class="w-25 rounded-pill float-start me-2 border " src="/images/post2.png">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit at molestias minus
+								tempora error nam,
+								tenetur a atque aperiam in sapiente, corporis, iusto necessitatibus perspiciatis.</p>
+						</div>
+					</div>
+				</div>
+			</aside>
 		</div>
-		<div class="sidebar clear">
-			<div class="samesidebar clear">
-				<h2>Latest articles</h2>
-					<ul>
-						<li><a href="#">Post Title one will be go here.</a></li>
-						<li><a href="#">Post Title two will be go here.</a></li>
-						<li><a href="#">Post Title three will be go here.</a></li>
-						<li><a href="#">Post Title four will be go here.</a></li>
-						<li><a href="#">Post Title five will be go here.</a></li>
-						<li><a href="#">Post Title six will be go here.</a></li>
-						
-					</ul>
-			</div>
-			
-			<div class="samesidebar clear">
-				<h2>Popular articles</h2>
-					<div class="popular clear">
-						<h3><a href="#">Post title will be go here..</a></h3>
-						<a href="#"><img src="images/post1.jpg" alt="post image"/></a>
-						<p>Sidebar text will be go here.Sidebar text will be go here.Sidebar text will be go here.Sidebar text will be go here.</p>	
-					</div>
-					
-					<div class="popular clear">
-						<h3><a href="#">Post title will be go here..</a></h3>
-						<a href="#"><img src="images/post1.jpg" alt="post image"/></a>
-						<p>Sidebar text will be go here.Sidebar text will be go here.Sidebar text will be go here.Sidebar text will be go here.</p>	
-					</div>
-					
-					<div class="popular clear">
-						<h3><a href="#">Post title will be go here..</a></h3>
-						<a href="#"><img src="images/post1.jpg" alt="post image"/></a>
-						<p>Sidebar text will be go here.Sidebar text will be go here.Sidebar text will be go here.Sidebar text will be go here.</p>	
-					</div>
-					
-					<div class="popular clear">
-						<h3><a href="#">Post title will be go here..</a></h3>
-						<a href="#"><img src="images/post1.jpg" alt="post image"/></a>
-						<p>Sidebar text will be go here.Sidebar text will be go here.Sidebar text will be go here.Sidebar text will be go here.</p>	
-					</div>
-				
-			</div>
-			
-		</div>
-	</div>
-
-	<div class="footersection templete clear">
-	  <div class="footermenu clear">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contact</a></li>
-			<li><a href="#">Privacy</a></li>
-		</ul>
-	  </div>
-	  <p>&copy; Copyright Training with live project.</p>
-	</div>
-	<div class="fixedicon clear">
-		<a href="http://www.facebook.com"><img src="images/fb.png" alt="Facebook"/></a>
-		<a href="http://www.twitter.com"><img src="images/tw.png" alt="Twitter"/></a>
-		<a href="http://www.google.com"><img src="images/gl.png" alt="GooglePlus"/></a>
-		<a href="http://www.linkedin.com"><img src="images/in.png" alt="LinkedIn"/></a>
-	</div>
 </body>
+<!-------===============Footer section==========-->
+<div class="container overflow-hidden ">
+	<footer>
+		<div id="footer" class="mt-1 pt-4 border border-2 border-light">
+			<ul class="text-center">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Privacy</a></li>
+			</ul>
+			<p class="text-center">&copy; All rights reserved by Salim Malik</p>
+		</div>
+	</footer>
+</div>
+</body>
+
 </html>
