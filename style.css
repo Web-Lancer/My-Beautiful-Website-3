@@ -9,7 +9,7 @@ a {
 }
 
 body {
-  background-image: url(/images/bg-16.jpg);
+  background-image: url(/images/bg-image-3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -24,12 +24,12 @@ body {
 
 #main-area {
   width: 74%;
-  background-color: rgba(245, 247, 234, 0.918);
+  background-color: hsl(56, 58%, 95%);
 }
 
 #sidebar {
   width: 25%;
-   background-color: rgba(255, 240, 245, 0.913);
+   background-color: rgba(229, 237, 248, 0.913);
 }
 
 .latest-articl a {
@@ -44,7 +44,7 @@ body {
   height: 120px;
   margin-bottom: 20px;
   padding-top: 20px;
-  background-color: rgba(255, 248, 220, 0.9);
+  background-color: rgba(201, 202, 224, 0.9);
 }
 
 #footer ul li {
