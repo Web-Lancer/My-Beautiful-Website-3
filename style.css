@@ -62,3 +62,7 @@ body {
   border-radius: 5px;
 }
 
+.related-post img{width: 200px; height: 120px;
+border-radius: 5px; margin: 3px; border: 2px solid rgb(60, 122, 188); margin-left: 50px; }
+
+.related-post img:hover{opacity: 75%;}
