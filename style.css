@@ -29,7 +29,7 @@ body {
 
 #sidebar {
   width: 25%;
-   background-color: rgba(229, 237, 248, 0.913);
+  background-color: rgba(229, 237, 248, 0.913);
 }
 
 .latest-articl a {
@@ -62,7 +62,26 @@ body {
   border-radius: 5px;
 }
 
-.related-post img{width: 200px; height: 120px;
-border-radius: 5px; margin: 3px; border: 2px solid rgb(60, 122, 188); margin-left: 50px; }
+.related-post img {
+  width: 200px;
+  height: 120px;
+  border-radius: 5px;
+  margin: 3px;
+  border: 2px solid rgb(60, 122, 188);
+  margin-left: 50px;
+}
 
-.related-post img:hover{opacity: 75%;}
+.related-post img:hover {
+  opacity: 75%;
+}
+
+.fixedicon {right: 0;
+  position: fixed;
+  top: 180px;
+  width: 60px;
+
+}
+
+.fixedicon img {
+  width: 70px;
+}
